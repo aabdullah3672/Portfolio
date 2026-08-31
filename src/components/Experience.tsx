@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-28 px-6">
       <div className="mx-auto max-w-4xl">
-        <SectionHeading number="03" title="Experience" />
+        <SectionHeading number="04" title="Experience" />
 
         <div className="relative space-y-12 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-border">
           {experiences.map((exp, i) => (
