@@ -8,29 +8,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    id: "sukuk-senior",
+    id: "tkxel-current",
     role: "Senior Software Engineer",
-    period: "Dec 2024 — Present",
-    technologies: ["Laravel", "jQuery", "MySQL", "CI/CD", "BitBucket"],
+    period: "Sep 2021 — Present",
+    technologies: ["PHP 8.4", "Laravel 13", "MSSQL", "DynamoDB", "Redis", "AWS", "React JS", "Vue JS", "WordPress", "Node JS"],
     highlights: [
-      "Architected dynamic KPI creation system, improving profit tracking by 22%",
-      "Developed flexible repayment module, increasing platform adoption by 15%",
-      "Created secondary market for early investor exits",
-      "Engineered investment quota management for regulatory compliance",
-      "Built real-time analytics dashboard and secure banking API integrations",
-    ],
-  },
-  {
-    id: "tkxel",
-    role: "Senior Software Engineer",
-    period: "Sep 2021 — Nov 2024",
-    technologies: ["Laravel", "Vue JS", "React JS", "PostgreSQL", "MySQL", "WordPress", "jQuery", "Node JS"],
-    highlights: [
-      "Led WordPress development for Artnet with custom themes, plugins, and headless API solutions",
+      "Diagnosed and resolved production deadlocks on Comply API via SQL Server RCSI optimization",
+      "Debugged Vault-to-Comply sync pipeline — resolved crm_id/email mismatch in queue envelopes",
+      "Architected dynamic KPI system for Sukuk fintech platform — 22% profit tracking improvement",
+      "Led WordPress development for Artnet with custom themes and headless API solutions",
+      "Resolved 200+ ReactJS issues for Cafe Zupas — 26% revenue increase",
       "Built affiliate tracking and payment reporting system for Bright Line Eating",
-      "Resolved 200+ ReactJS issues for Cafe Zupas, driving 26% revenue increase",
-      "Architected microservices with Laravel and Node.js for restaurant management",
-      "Integrated Google Maps API with React for data visualization dashboards",
     ],
   },
   {

@@ -66,13 +66,35 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
             transition={{ delay: 0.2 }}
             className="lg:col-span-2 space-y-8"
           >
-            <div>
-              <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                {project.title}
-              </h1>
-              <p className="text-lg leading-relaxed text-text-muted">
-                {project.longDescription}
-              </p>
+            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              {project.title}
+            </h1>
+
+            {/* Problem / Approach / Result */}
+            <div className="space-y-6">
+              <div className="rounded-lg border border-border bg-bg-card p-6">
+                <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+                  <span className="inline-block h-2 w-2 rounded-full bg-red-400" />
+                  Problem
+                </h2>
+                <p className="leading-relaxed text-text-muted">{project.problem}</p>
+              </div>
+
+              <div className="rounded-lg border border-border bg-bg-card p-6">
+                <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+                  <span className="inline-block h-2 w-2 rounded-full bg-accent" />
+                  Approach
+                </h2>
+                <p className="leading-relaxed text-text-muted">{project.approach}</p>
+              </div>
+
+              <div className="rounded-lg border border-border bg-bg-card p-6">
+                <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+                  <span className="inline-block h-2 w-2 rounded-full bg-green-400" />
+                  Result
+                </h2>
+                <p className="leading-relaxed text-text-muted">{project.result}</p>
+              </div>
             </div>
 
             {/* Key contributions */}

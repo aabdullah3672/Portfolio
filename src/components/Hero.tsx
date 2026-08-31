@@ -93,8 +93,8 @@ export default function Hero() {
           I build scalable web applications with{" "}
           <span className="text-accent">React JS</span>,{" "}
           <span className="text-accent">Laravel</span>, and{" "}
-          <span className="text-accent">WordPress</span>. Currently crafting
-          fintech solutions at Sukuk from Lahore, Pakistan.
+          <span className="text-accent">WordPress</span>. Currently building
+          compliance solutions at Tkxel from Lahore, Pakistan.
         </motion.p>
 
         {/* Social links — magnetic */}

@@ -68,7 +68,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/Ahmed_Abdullah_Resume.pdf"
+              href="/senior_software_engineer_Ahmed_Abdullah.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-md border border-accent px-4 py-1.5 text-sm text-accent transition-colors hover:bg-accent hover:text-white"
@@ -120,7 +120,7 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="/Ahmed_Abdullah_Resume.pdf"
+                  href="/senior_software_engineer_Ahmed_Abdullah.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-md border border-accent px-5 py-2 text-sm text-accent transition-colors hover:bg-accent hover:text-white"

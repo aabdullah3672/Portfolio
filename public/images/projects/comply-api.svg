@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#12121a"/>
+  <rect x="8" y="8" width="1184" height="659" rx="12" ry="12" fill="none" stroke="#6c63ff" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="8" y1="50" x2="8" y2="8" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="8" y1="8" x2="50" y2="8" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="1150" y1="8" x2="1192" y2="8" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="1192" y1="8" x2="1192" y2="50" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="1192" y1="625" x2="1192" y2="667" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="1192" y1="667" x2="1150" y2="667" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="50" y1="667" x2="8" y2="667" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="8" y1="667" x2="8" y2="625" stroke="#6c63ff" stroke-width="4"/>
+  <line x1="400" y1="395" x2="800" y2="395" stroke="#6c63ff" stroke-width="3" stroke-opacity="0.5"/>
+  <text x="600" y="330" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Comply API</text>
+  <text x="600" y="380" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="400" fill="#6c63ff" text-anchor="middle" dominant-baseline="middle">B2B Tax Compliance SaaS</text>
+</svg>
